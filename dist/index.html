@@ -54,7 +54,6 @@
         docExpansion: "list",
         dom_id: "swagger-ui-container",
         supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
-        authorizations: { key:AuthorizationObject},
         onComplete: function(swaggerApi, swaggerUi){
           if(typeof initOAuth == "function") {
             initOAuth({
